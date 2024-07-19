@@ -1,0 +1,34 @@
+.body{
+    background: url(https://www.shutterstock.com/image-vector/seamless-pattern-game-tic-tac-260nw-709731865.jpg);
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.board{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap:5px;
+    margin:20px auto;
+}
+
+.cell{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #eee;
+    border:1px solid #ccc;
+    width:100px;
+    height: 100px;
+}
+
+.button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
